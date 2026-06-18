@@ -1,16 +1,13 @@
-# Karadoğan Avukatlık Bürosu — v9 Revizyon
+# Karadoğan Avukatlık Bürosu — v10 İnce Ayar
 
-Bu sürümde ana giriş yalnızca tek ekran kapak olarak düzenlenmiştir.
-Ana sayfada aşağı doğru içerik yoktur.
+Bu sürümde kullanıcı geri bildirimlerine göre ince revizyonlar yapılmıştır.
 
-## Revizyonlar
-- Kapak fotoğrafı parlaklaştırıldı.
-- Kapak üzerindeki metin kaldırıldı.
-- Ana sayfa sabit tek ekran olarak düzenlendi.
-- Hakkımızda ayrı sayfa oldu.
-- Hakkımızda metni daha kısa, kurumsal ve Berker/Esin çizgisine yakın kuruldu.
-- Çalışma alanları kutu/kare düzeninde bırakıldı.
-- Ekibimiz sayfası korundu.
-- İletişim sayfasına ofis dış cephe fotoğrafı ve Google Maps eklendi.
-- Eski `buro.html` dosyası Hakkımızda sayfasına yönlendirildi.
-- Site onaylanana kadar `noindex, nofollow` kullanılmaktadır.
+## Yapılan değişiklikler
+- Ana sayfa kapak görseli Talha Güney köprü fotoğrafı ile değiştirildi.
+- Kapak görseli hafif aydınlatıldı.
+- Ana sayfanın üst kısmı beyaz header olarak düzenlendi.
+- Ana sayfada aşağı kaydırma yok; yalnızca tek ekran kapak devam etmektedir.
+- Hakkımızda / Çalışma Alanları / Ekibimiz / Yayınlar / İletişim / Yasal Uyarı sayfalarındaki küçük üst etiket yazıları kaldırıldı.
+- Küçük paragrafların tipografisi daha zarif görünmesi için boyut ve satır aralıkları düzenlendi.
+- İletişim sayfasındaki üst görsel tarihi cephe fotoğrafı ile değiştirildi.
+- Genel yapı korunarak, önceki beğenilen tasarım çizgisi bozulmadan revize edildi.
