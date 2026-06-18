@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap');
 
 :root {
   --paper: #fffdf8;
@@ -10,7 +10,7 @@
   --accent: #8f7a59;
   --dark: #151311;
   --serif: "Cormorant Garamond", Georgia, serif;
-  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -137,8 +137,9 @@ p { margin: 0 0 1rem; }
   position: relative;
   padding: 10px 0;
   color: rgba(36,33,31,.72);
-  font-size: 12px;
-  letter-spacing: .16em;
+  font-size: 11.5px;
+  letter-spacing: .15em;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -221,8 +222,9 @@ h1 {
   max-width: 760px;
   margin-top: 24px;
   color: var(--muted);
-  font-size: 17px;
-  line-height: 1.72;
+  font-size: 16.5px;
+  line-height: 1.78;
+  font-weight: 400;
 }
 
 .about-title-grid {
@@ -250,8 +252,9 @@ h1 {
 
 .about-copy p {
   color: var(--muted);
-  font-size: 17px;
-  line-height: 1.76;
+  font-size: 16.25px;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 .about-copy .lead {
@@ -305,8 +308,9 @@ h1 {
 .practice-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 15px;
-  line-height: 1.72;
+  font-size: 14.75px;
+  line-height: 1.78;
+  font-weight: 400;
 }
 
 /* TEAM */
@@ -362,8 +366,9 @@ h1 {
 .team-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 15.5px;
-  line-height: 1.72;
+  font-size: 15.25px;
+  line-height: 1.78;
+  font-weight: 400;
 }
 
 /* PUBLICATIONS */
@@ -387,8 +392,9 @@ h1 {
 .publication-box p {
   margin: 0;
   color: var(--muted);
-  font-size: 16.5px;
-  line-height: 1.72;
+  font-size: 16px;
+  line-height: 1.78;
+  font-weight: 400;
 }
 
 /* CONTACT */
@@ -430,8 +436,9 @@ h1 {
 .contact-block p {
   margin: 0;
   color: var(--muted);
-  font-size: 16px;
-  line-height: 1.72;
+  font-size: 15.75px;
+  line-height: 1.78;
+  font-weight: 400;
 }
 
 .map-wrap {
@@ -459,8 +466,9 @@ h1 {
 
 .legal-copy p {
   color: var(--muted);
-  font-size: 16.5px;
-  line-height: 1.76;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 /* FOOTER */
