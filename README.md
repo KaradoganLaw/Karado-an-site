@@ -1,16 +1,21 @@
-# Karadoğan Avukatlık Bürosu Web Sitesi
+# Karadoğan Avukatlık Bürosu Web Sitesi — v5 Premium Taslak
 
-Bu depo, Karadoğan Avukatlık Bürosu resmi web sitesi için hazırlanmış çok sayfalı statik site dosyalarını içerir.
+Bu paket, GitHub Pages üzerinde ön izleme için hazırlanmış çok sayfalı statik site taslağıdır.
 
-Sayfalar:
-- Ana Sayfa
-- Büro
-- Faaliyet Alanları
-- Ekibimiz
-- İletişim
+## Sayfalar
+- index.html
+- hakkimizda.html
+- faaliyet-alanlari.html
+- ekibimiz.html
+- yayinlar.html
+- iletisim.html
+- yasal-uyari.html
 
-Yayınlamadan önce kontrol:
-- Ekibimiz sayfasındaki kişi bilgileri tamamlanmalı.
-- Telefon numarası eklenmeli veya “Telefon numarası eklenecektir” ifadesi kaldırılmalı.
-- Site onaylanana kadar `noindex` etiketi korunmalıdır.
-- Yayına alınırken `noindex,nofollow` etiketi kaldırılmalıdır.
+## Notlar
+- Tüm sayfalarda geçici olarak `noindex, nofollow` vardır. Site onaylanmadan arama motorlarına açılması amaçlanmamıştır.
+- `karadogan.av.tr` domaini bu taslak onaylanmadan bağlanmamalıdır.
+- Ana sayfa köprü görseli Unsplash CDN üzerinden çağrılmaktadır. Nihai yayında istenirse görsel indirip yerel dosya olarak da kullanılabilir.
+- Seçilen hero görseli: Hulki Okan Tabak / Unsplash — https://unsplash.com/photos/red-and-blue-lighted-bridge-during-night-CE80geljURk
+
+## Değiştirme
+GitHub'daki mevcut dosyaların üzerine bu paketin içindeki dosyaları yükleyin ve commit edin.
