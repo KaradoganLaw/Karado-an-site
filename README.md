@@ -1,20 +1,15 @@
-# Karadoğan Avukatlık Bürosu Web Sitesi — v6 Revizyon
+# Karadoğan Avukatlık Bürosu Web Sitesi — v7
 
-Bu paket, GitHub Pages üzerinde ön izleme için hazırlanmıştır.
+Bu sürüm v6'daki oturmama/kayma sorununu gidermek üzere hazırlanmıştır.
 
-## Revizyon notları
-- Ana giriş karanlık tam ekran yapıdan çıkarıldı.
-- Büyük ortalı logo kaldırıldı.
-- Üst menü logosu küçültüldü ve siyah blok sorunu giderildi.
-- "İstanbul merkezli" ifadesi kaldırıldı.
-- "Büro" kelimesi genel anlatımda azaltıldı; daha çok "Karadoğan Avukatlık Bürosu olarak" dili kullanıldı.
-- Çalışma alanları Esin/Berker Berker çizgisine yakın kare/kutu düzenine alındı.
-- Hakkımızda metni daha kurumsal ve bütüncül anlatıma çekildi.
-- İletişim sayfasındaki Google Maps korundu.
-- `noindex, nofollow` devam ediyor.
+## Düzeltmeler
+- Sayfa içeriği tekrar merkezli container yapısına alındı.
+- Yatay taşma ve soldan kesilme sorunu için responsive yapı düzeltildi.
+- Header logosu görsel yerine daha okunur text-wordmark olarak kuruldu.
+- CSS dosyası `style-v7.css?v=7` olarak değiştirildi. Tarayıcı önbelleği eski CSS'i çağırmasın.
+- Çalışma alanları Esin/Berker Berker çizgisine yakın kare kutu düzeninde verildi.
+- "İstanbul merkezli" ifadesi kullanılmadı.
+- Ana girişte koyu tam ekran logo yapısı yok.
 
-## Stok görseller
-- Hero köprü görseli: Pexels photo 8002129 / Alp Yıldızlar
-- Ofis/kütüphane görselleri: Pexels photo 34971918 ve 10957571
-
-Domain bağlamadan önce GitHub Pages ön izlemede kontrol edilmelidir.
+## Not
+GitHub'a yükledikten sonra siteyi Cmd + Shift + R ile yenileyin.
