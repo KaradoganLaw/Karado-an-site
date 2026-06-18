@@ -1,15 +1,16 @@
-# Karadoğan Avukatlık Bürosu — v8 Tek Sayfa Premium Taslak
+# Karadoğan Avukatlık Bürosu — v9 Revizyon
 
-Bu sürüm tek sayfa olarak hazırlanmıştır.
+Bu sürümde ana giriş yalnızca tek ekran kapak olarak düzenlenmiştir.
+Ana sayfada aşağı doğru içerik yoktur.
 
-## Yapı
-- Kapakta seçilen 2. köprü fotoğrafı kullanıldı.
-- Üst menü tek sayfa içindeki bölümlere iner.
-- Hakkımızda, Çalışma Alanları, Ekibimiz, Yayınlar ve İletişim aynı sayfadadır.
-- Çalışma alanları kutu/kare grid şeklindedir.
-- Ekibimiz bölümü unutulmadı. Av. Hasan Karadoğan ve güncellenecek ekip alanı eklendi.
-- Eski çok sayfalı dosyalar açılırsa tek sayfa içindeki ilgili bölüme yönlendirilir.
-- Site onaylanana kadar noindex/nofollow kullanılır.
-
-## Yükleme
-ZIP'i açın. İçindeki dosyaların tamamını GitHub repo kök dizinine yükleyin ve değişiklikleri kaydedin.
+## Revizyonlar
+- Kapak fotoğrafı parlaklaştırıldı.
+- Kapak üzerindeki metin kaldırıldı.
+- Ana sayfa sabit tek ekran olarak düzenlendi.
+- Hakkımızda ayrı sayfa oldu.
+- Hakkımızda metni daha kısa, kurumsal ve Berker/Esin çizgisine yakın kuruldu.
+- Çalışma alanları kutu/kare düzeninde bırakıldı.
+- Ekibimiz sayfası korundu.
+- İletişim sayfasına ofis dış cephe fotoğrafı ve Google Maps eklendi.
+- Eski `buro.html` dosyası Hakkımızda sayfasına yönlendirildi.
+- Site onaylanana kadar `noindex, nofollow` kullanılmaktadır.
