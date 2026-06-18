@@ -168,7 +168,7 @@ p { margin: 0 0 1rem; }
   flex: 1;
   min-height: 0;
   background-image:
-    linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.02) 42%, rgba(0,0,0,.10)),
+    linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.01) 42%, rgba(0,0,0,.08)),
     url("../images/hero-bosphorus.jpg");
   background-size: cover;
   background-position: center center;
@@ -484,6 +484,10 @@ h1 {
   gap: 58px;
 }
 
+.footer-brand {
+  margin-bottom: 24px;
+}
+
 .footer-brand span {
   display: block;
   color: #f6f0e7;
@@ -494,14 +498,20 @@ h1 {
 
 .footer-brand small {
   display: block;
-  margin-top: 8px;
+  margin-top: 4px;
   color: rgba(255,255,255,.64);
   font-family: var(--serif);
   letter-spacing: .25em;
 }
 
 .site-footer p {
+  margin: 0;
   color: rgba(255,255,255,.62);
+}
+
+.footer-brand + p {
+  margin-top: 20px;
+  max-width: 460px;
 }
 
 .site-footer h3 {
@@ -530,7 +540,8 @@ h1 {
 /* RESPONSIVE */
 @media (max-width: 1050px) {
   body.home-page {
-    overflow: auto;
+    height: 100svh;
+    overflow: hidden;
   }
 
   .header-inner {
@@ -548,11 +559,12 @@ h1 {
   }
 
   .home-shell {
-    min-height: 640px;
+    height: 100svh;
+    min-height: 100svh;
   }
 
   .home-hero {
-    min-height: 520px;
+    min-height: 0;
   }
 
   .about-title-grid,
@@ -575,6 +587,13 @@ h1 {
 }
 
 @media (max-width: 680px) {
+  .home-hero {
+    background-image:
+      linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.04) 42%, rgba(0,0,0,.12)),
+      url("../images/hero-bosphorus-mobile.jpg");
+    background-position: center center;
+  }
+
   .container,
   .header-inner {
     width: min(100% - 36px, 1180px);
