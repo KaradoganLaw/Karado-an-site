@@ -1,15 +1,15 @@
-# Karadoğan Avukatlık Bürosu Web Sitesi — v7
+# Karadoğan Avukatlık Bürosu — v8 Tek Sayfa Premium Taslak
 
-Bu sürüm v6'daki oturmama/kayma sorununu gidermek üzere hazırlanmıştır.
+Bu sürüm tek sayfa olarak hazırlanmıştır.
 
-## Düzeltmeler
-- Sayfa içeriği tekrar merkezli container yapısına alındı.
-- Yatay taşma ve soldan kesilme sorunu için responsive yapı düzeltildi.
-- Header logosu görsel yerine daha okunur text-wordmark olarak kuruldu.
-- CSS dosyası `style-v7.css?v=7` olarak değiştirildi. Tarayıcı önbelleği eski CSS'i çağırmasın.
-- Çalışma alanları Esin/Berker Berker çizgisine yakın kare kutu düzeninde verildi.
-- "İstanbul merkezli" ifadesi kullanılmadı.
-- Ana girişte koyu tam ekran logo yapısı yok.
+## Yapı
+- Kapakta seçilen 2. köprü fotoğrafı kullanıldı.
+- Üst menü tek sayfa içindeki bölümlere iner.
+- Hakkımızda, Çalışma Alanları, Ekibimiz, Yayınlar ve İletişim aynı sayfadadır.
+- Çalışma alanları kutu/kare grid şeklindedir.
+- Ekibimiz bölümü unutulmadı. Av. Hasan Karadoğan ve güncellenecek ekip alanı eklendi.
+- Eski çok sayfalı dosyalar açılırsa tek sayfa içindeki ilgili bölüme yönlendirilir.
+- Site onaylanana kadar noindex/nofollow kullanılır.
 
-## Not
-GitHub'a yükledikten sonra siteyi Cmd + Shift + R ile yenileyin.
+## Yükleme
+ZIP'i açın. İçindeki dosyaların tamamını GitHub repo kök dizinine yükleyin ve değişiklikleri kaydedin.
