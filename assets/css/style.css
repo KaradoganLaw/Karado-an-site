@@ -775,3 +775,22 @@ h1 {
     grid-template-columns: 1fr !important;
   }
 }
+
+
+/* v16 nihai banner seçimleri */
+/* Ana ekran, Hakkımızda ve İletişim korunmuştur. */
+.practice-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.30), rgba(0,0,0,.04)),
+    url("../images/practice-banner.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.22), rgba(0,0,0,.04)),
+    url("../images/team-banner.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
