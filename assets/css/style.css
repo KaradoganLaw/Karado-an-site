@@ -649,3 +649,129 @@ h1 {
     min-height: 420px;
   }
 }
+
+
+/* v13 rötuşlar */
+.practice-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.36), rgba(0,0,0,.06)),
+    url("../images/about-strip.jpg");
+}
+
+.team-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.26), rgba(0,0,0,.04)),
+    url("../images/historical-beyoglu.jpg");
+  background-position: center 43%;
+}
+
+.publication-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.34), rgba(0,0,0,.06)),
+    url("../images/contact-historical.jpg");
+  background-position: center center;
+}
+
+.about-simple-title {
+  max-width: 910px;
+  margin-bottom: 46px;
+  display: block;
+}
+
+.about-simple-title h1 {
+  margin: 0;
+}
+
+.about-copy {
+  max-width: 910px;
+}
+
+.footer-grid {
+  grid-template-columns: 1.05fr .75fr 1fr;
+  align-items: start;
+}
+
+.footer-links {
+  padding-top: 4px;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(255,255,255,.82);
+}
+
+.footer-brand {
+  margin-bottom: 0;
+}
+
+.footer-brand + p {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* v14 yayınsız + banner düzeni */
+
+/* Yayınlar şimdilik menüde yok. Çalışma alanları ve ekipte daha dengeli görsel dağılımı. */
+.practice-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.30), rgba(0,0,0,.04)),
+    url("../images/about-strip.jpg");
+  background-position: center 58%;
+}
+
+.team-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.22), rgba(0,0,0,.04)),
+    url("../images/historical-beyoglu.jpg");
+  background-position: center 43%;
+}
+
+/* Hakkımızda filigran kaldırma ve hizalama güvence */
+.ghost-mark {
+  display: none !important;
+}
+
+.about-simple-title,
+.about-title-grid {
+  max-width: 910px;
+  display: block !important;
+  grid-template-columns: none !important;
+  margin-bottom: 46px;
+}
+
+.about-simple-title h1,
+.about-title-grid h1 {
+  margin: 0;
+}
+
+/* Footer sade görünüm */
+.footer-brand + p {
+  display: none !important;
+}
+
+.footer-links {
+  padding-top: 4px;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(255,255,255,.82);
+}
+
+.site-footer h3:empty {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -1,11 +1,10 @@
-# Karadoğan Avukatlık Bürosu — v11
+# Karadoğan Avukatlık Bürosu — v14 Yayınsız Banner Düzeni
 
-Bu sürümde şu revizyonlar yapıldı:
-- Ana sayfa kapak görseli kullanıcı tarafından tercih edilen 2. köprü fotoğrafı ile değiştirildi.
-- Kapak görseli hafif aydınlatıldı.
-- Küçük metinlerde daha zarif görünüm için yazı tipi Inter yerine Manrope olarak güncellendi.
-- Küçük yazıların boyutu, satır aralığı ve ağırlığı incelendi.
-- Genel premium çizgi korunarak yalnızca istenen noktalarda ince ayar yapıldı.
+Ana ekran korunmuştur.
 
-
-Bu sürümde hero görseli önceki tercih edilen fotoğrafa döndürüldü, mobil için ayrı kırpım eklendi ve footer alt banner boşlukları düzenlendi.
+## Yapılan revizeler
+- Yayınlar menüden ve footer bağlantılarından çıkarıldı.
+- Yayınlar sayfası açılırsa ana sayfaya yönlendirilecek şekilde bırakıldı.
+- Hakkımızda ve İletişim mevcut banner çizgisi korunmuştur.
+- Çalışma Alanları ve Ekibimiz sayfalarına görsel bütünlük sağlayan ince üst banner düzeni eklendi.
+- Footer sadeleştirildi.
