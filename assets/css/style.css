@@ -651,89 +651,9 @@ h1 {
 }
 
 
-/* v13 rötuşlar */
-.practice-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.36), rgba(0,0,0,.06)),
-    url("../images/about-strip.jpg");
-}
+/* v17 temiz son revizyon */
+/* Ana ekran, Hakkımızda ve İletişim korunmuştur. */
 
-.team-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.26), rgba(0,0,0,.04)),
-    url("../images/historical-beyoglu.jpg");
-  background-position: center 43%;
-}
-
-.publication-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.34), rgba(0,0,0,.06)),
-    url("../images/contact-historical.jpg");
-  background-position: center center;
-}
-
-.about-simple-title {
-  max-width: 910px;
-  margin-bottom: 46px;
-  display: block;
-}
-
-.about-simple-title h1 {
-  margin: 0;
-}
-
-.about-copy {
-  max-width: 910px;
-}
-
-.footer-grid {
-  grid-template-columns: 1.05fr .75fr 1fr;
-  align-items: start;
-}
-
-.footer-links {
-  padding-top: 4px;
-}
-
-.footer-links a {
-  display: block;
-  margin-bottom: 10px;
-  color: rgba(255,255,255,.82);
-}
-
-.footer-brand {
-  margin-bottom: 0;
-}
-
-.footer-brand + p {
-  display: none;
-}
-
-@media (max-width: 1050px) {
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* v14 yayınsız + banner düzeni */
-
-/* Yayınlar şimdilik menüde yok. Çalışma alanları ve ekipte daha dengeli görsel dağılımı. */
-.practice-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.30), rgba(0,0,0,.04)),
-    url("../images/about-strip.jpg");
-  background-position: center 58%;
-}
-
-.team-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.22), rgba(0,0,0,.04)),
-    url("../images/historical-beyoglu.jpg");
-  background-position: center 43%;
-}
-
-/* Hakkımızda filigran kaldırma ve hizalama güvence */
 .ghost-mark {
   display: none !important;
 }
@@ -751,7 +671,38 @@ h1 {
   margin: 0;
 }
 
-/* Footer sade görünüm */
+.about-copy {
+  max-width: 910px;
+}
+
+/* Hakkımızda mevcut banner korunur */
+.about-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.54), rgba(0,0,0,.10)),
+    url("../images/about-strip.jpg");
+  background-position: center center;
+}
+
+/* Çalışma Alanları: seçilen 1. görsel */
+.practice-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.30), rgba(0,0,0,.04)),
+    url("../images/practice-banner.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Ekibimiz: seçilen daha sade 1. görsel */
+.team-strip {
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,.22), rgba(0,0,0,.04)),
+    url("../images/team-banner.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* İletişim bannerına dokunulmuyor: v12’deki beğenilen hali korunur. */
+
 .footer-brand + p {
   display: none !important;
 }
@@ -766,31 +717,8 @@ h1 {
   color: rgba(255,255,255,.82);
 }
 
-.site-footer h3:empty {
-  display: none;
-}
-
 @media (max-width: 1050px) {
   .footer-grid {
     grid-template-columns: 1fr !important;
   }
-}
-
-
-/* v16 nihai banner seçimleri */
-/* Ana ekran, Hakkımızda ve İletişim korunmuştur. */
-.practice-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.30), rgba(0,0,0,.04)),
-    url("../images/practice-banner.jpg") !important;
-  background-size: cover;
-  background-position: center center;
-}
-
-.team-strip {
-  background-image:
-    linear-gradient(90deg, rgba(0,0,0,.22), rgba(0,0,0,.04)),
-    url("../images/team-banner.jpg") !important;
-  background-size: cover;
-  background-position: center center;
 }

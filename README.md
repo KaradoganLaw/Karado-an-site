@@ -1,10 +1,17 @@
-# Karadoğan Avukatlık Bürosu — v16 Banner Seçimleri
+# Karadoğan Avukatlık Bürosu — v17 Temiz Banner
 
-Ana ekran korunmuştur.
+Bu paket v12 ana baz üzerinden temiz şekilde yeniden hazırlanmıştır.
 
-## Yapılan revizeler
-- Çalışma Alanları bannerı seçilen 1. görsel ile değiştirildi.
-- Ekibimiz bannerı seçilen daha sade 1. görsel ile değiştirildi.
-- Hakkımızda bannerı korunmuştur.
-- İletişim bannerı ve boyutu korunmuştur.
-- Yayınlar menü dışı kalmaya devam eder.
+## Korunanlar
+- Ana ekran
+- Ana kapak fotoğrafı
+- Beyaz üst banner
+- Hakkımızda bannerı
+- İletişim bannerı ve boyutu
+
+## Değişenler
+- Çalışma Alanları bannerı seçilen 1. görselle değiştirildi.
+- Ekibimiz bannerı seçilen sade 1. görselle değiştirildi.
+- Yayınlar menüden çıkarıldı.
+- Footer sadeleştirildi.
+- Hakkımızda filigranı kaldırıldı ve metin düzeltildi.
