@@ -1,17 +1,17 @@
-# Karadoğan Avukatlık Bürosu — v17 Temiz Banner
+# Karadoğan Avukatlık Bürosu — v15 Fotoğraf Revizyonu
 
-Bu paket v12 ana baz üzerinden temiz şekilde yeniden hazırlanmıştır.
+Bu sürümde ana ekran korunmuştur.
 
-## Korunanlar
-- Ana ekran
-- Ana kapak fotoğrafı
-- Beyaz üst banner
-- Hakkımızda bannerı
-- İletişim bannerı ve boyutu
+## Yapılan düzenlemeler
+- İletişim sayfasındaki banner fotoğrafı ve boyutu önceki beğenilen haliyle korunmuştur.
+- Hakkımızda bannerı korunmuştur.
+- Çalışma Alanları sayfasına Hakkımızda'dan farklı, büro cephesine odaklı yeni banner eklenmiştir.
+- Ekibimiz sayfasına İletişim'den farklı yeni banner eklenmiştir.
+- Yayınlar menü dışı kalmaya devam eder.
 
-## Değişenler
-- Çalışma Alanları bannerı seçilen 1. görselle değiştirildi.
-- Ekibimiz bannerı seçilen sade 1. görselle değiştirildi.
-- Yayınlar menüden çıkarıldı.
-- Footer sadeleştirildi.
-- Hakkımızda filigranı kaldırıldı ve metin düzeltildi.
+
+## v18 – İletişim ve Hakkımızda
+- 0212 909 44 01 iletişim numarası site geneline eklendi.
+- İletişim sayfasındaki Google Maps sorgusu Karadoğan Avukatlık Bürosu + tam adres olarak güncellendi.
+- Hakkımızda üst bannerı Cihangir/Beyoğlu-Boğaz yönünde premium yatay görselle güncellendi.
+- Ana sayfa hero, İletişim tarihi bina görseli ve Çalışma Alanları içerikleri değiştirilmedi.
