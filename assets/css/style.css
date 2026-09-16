@@ -789,11 +789,11 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
-/* Hakkımızda: mevcut görsel korunur. */
+/* Hakkımızda: Cihangir / Boğaz panorama */
 .about-strip {
   background-image:
     linear-gradient(90deg, rgba(0,0,0,.54), rgba(0,0,0,.10)),
-    url("../images/about-strip.jpg");
+    url("../images/about-strip-cihangir.jpg");
   background-position: center center;
 }
 
@@ -811,23 +811,4 @@ h1 {
     linear-gradient(90deg, rgba(0,0,0,.16), rgba(0,0,0,.03)),
     url("../images/team-office-strip.jpg");
   background-position: center 46%;
-}
-
-
-/* v18 iletişim + Hakkımızda banner final rötuşları */
-.about-strip {
-  background-image:
-    linear-gradient(90deg, rgba(10,18,24,.46), rgba(10,18,24,.12) 58%, rgba(10,18,24,.18)),
-    url("../images/about-strip.jpg");
-  background-position: center 48%;
-  background-size: cover;
-}
-.contact-block a[href^="tel:"],
-.site-footer a[href^="tel:"] {
-  white-space: nowrap;
-}
-@media (max-width: 760px) {
-  .about-strip {
-    background-position: center 50%;
-  }
 }
