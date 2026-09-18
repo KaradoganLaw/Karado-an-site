@@ -811,3 +811,28 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
   .main-nav { gap: 5px; }
   .main-nav a { font-size: 9px; letter-spacing: .025em; }
 }
+
+/* Fotoğrafsız ekip sunumu: isim, unvan ve kısa bilgi. */
+.team-page .page-intro { border-bottom: 0; padding-bottom: 44px; }
+.team-page .team-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 64px; row-gap: 0; }
+.team-page .team-card { display: block; padding: 32px 0; border: 0; border-top: 1px solid var(--line); background: transparent; }
+.team-page .team-card h2 { font-size: 36px; margin-bottom: 12px; }
+.team-page .team-card span { font-size: 10px; letter-spacing: .16em; margin-bottom: 22px; }
+.team-page .team-card p { max-width: 480px; font-size: 15px; line-height: 1.85; }
+@media (max-width: 680px) {
+ .team-page .team-grid { grid-template-columns: 1fr; }
+ .team-page .team-card h2 { font-size: 32px; }
+}
+
+/* Ana kapak — onaylanan başlık */
+.home-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,19,29,.43), transparent 78%), linear-gradient(0deg, rgba(9,19,29,.25), transparent 65%); pointer-events: none; }
+.home-caption { position: absolute; left: max(32px, calc((100% - 1180px)/2)); right: 32px; bottom: clamp(60px, 12vh, 140px); color: #fffdf8; }
+.home-caption h1 { font-size: clamp(46px, 5.6vw, 82px); line-height: 1.08; font-weight: 400; letter-spacing: -.015em; text-shadow: 0 2px 20px rgba(0,0,0,.2); }
+@media (max-width: 680px) {
+ .home-caption { left: 24px; right: 18px; bottom: max(60px, 12svh); }
+ .home-caption h1 { font-size: clamp(35px, 8.8vw, 54px); line-height: 1.14; }
+}
+@media (max-height: 480px) and (min-width: 681px) {
+ .home-caption { bottom: 24px; }
+ .home-caption h1 { font-size: 42px; }
+}
