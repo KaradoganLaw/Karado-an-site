@@ -825,7 +825,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 }
 
 /* Ana kapak — onaylanan başlık */
-.home-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,19,29,.43), transparent 78%), linear-gradient(0deg, rgba(9,19,29,.25), transparent 65%); pointer-events: none; }
+.home-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,19,29,.31), transparent 78%), linear-gradient(0deg, rgba(9,19,29,.16), transparent 65%); pointer-events: none; }
 .home-caption { position: absolute; left: max(32px, calc((100% - 1180px)/2)); right: 32px; bottom: clamp(60px, 12vh, 140px); color: #fffdf8; }
 .home-caption h1 { font-size: clamp(46px, 5.6vw, 82px); line-height: 1.08; font-weight: 400; letter-spacing: -.015em; text-shadow: 0 2px 20px rgba(0,0,0,.2); }
 @media (max-width: 680px) {
