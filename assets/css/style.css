@@ -740,9 +740,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .areas-heading h1 { font-size: clamp(48px, 5.4vw, 76px); }
 .areas-section { padding-bottom: 100px; }
 .areas-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 64px; }
-.area-card { display: grid; grid-template-columns: 26px minmax(0,1fr) 24px; gap: 18px; border-top: 1px solid var(--line); min-height: 205px; padding: 36px 8px 32px 0; transition: background .2s, color .2s; }
+.area-card { display: grid; grid-template-columns: minmax(0,1fr) 24px; gap: 18px; border-top: 1px solid var(--line); min-height: 205px; padding: 36px 8px 32px 0; transition: background .2s, color .2s; }
 .area-card:nth-last-child(-n+2) { border-bottom: 1px solid var(--line); }
-.area-number { font-size: 11px; color: var(--accent); padding-top: 7px; letter-spacing: .1em; }
 .area-card h2 { font-size: clamp(28px, 2.5vw, 35px); line-height: 1.15; margin: 0 0 16px; text-wrap: balance; }
 .area-card p { color: var(--muted); font-size: 14px; line-height: 1.85; margin: 0; max-width: 430px; }
 .area-arrow { color: var(--accent); padding-top: 7px; transition: transform .2s; }
@@ -791,7 +790,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
   .areas-heading h1 { font-size: 48px; }
   .areas-grid { grid-template-columns: 1fr; }
   .areas-section { padding-bottom: 60px; }
-  .area-card { min-height: 0; padding: 27px 0; gap: 12px; grid-template-columns: 24px minmax(0,1fr) 20px; }
+  .area-card { min-height: 0; padding: 27px 0; gap: 12px; grid-template-columns: minmax(0,1fr) 20px; }
   .area-card:nth-last-child(2) { border-bottom: 0; }
   .area-card h2 { font-size: 29px; }
   .area-card p { font-size: 13px; }
